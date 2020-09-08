@@ -95,3 +95,64 @@
 # print("nice work you did ",len(trays),"trays")
 
 #---------------------------------------------------------------------------
+#Write a function that returns the largest element in a list
+# def lar(x):
+#     lg = x[0]
+#     for i in x:
+#         if lg < i:
+#             lg = i
+#     return lg
+# x=[1,3,14,75,3,14,72]
+# print(lar())
+
+#or
+
+# def lar(x):
+#     return max(x)
+# x=[1,3,14,75,3,14,72]
+# print(lar(x))
+
+
+#---------------------------------------------------------------------------
+#Write function that reverses a list, preferably in place.
+
+# def rev():
+#     ind1=0;
+#     ind2=len(x)-1;
+#     for i in reversed(x):
+#         swaper(ind1,ind2)
+#         ind1=ind1+1;
+#         ind2=ind2-1;
+#         if ind1==ind2:
+#             break
+#     return
+# def swaper(p1, p2):
+#     x[p1], x[p2] = x[p2], x[p1]
+# x=[1,3,14,75,3,14,72]
+# rev()
+# print(x)
+
+#---------------------------------------------------------------------------
+#Write a function that checks whether an element occurs in a list.
+# def checks(u):
+#     if x.count(u)==0:
+#         print("not here")
+#     else:
+#         print("it is here ")
+#
+# x=[1,3,14,75,3,14,72]
+# while True:
+#     checks(int(input()))
+
+#---------------------------------------------------------------------------
+#WWrite a function that returns the elements on odd positions in a list.
+# def checks():
+#     top = 0
+#     for i in x :
+#         if i%2!=0:
+#            top=top+1
+#     return top
+# x=[1,3,14,75,3,14,72]
+# print(checks())
+#---------------------------------------------------------------------------
+#Write a function that tests whether a string is a palindrome.
