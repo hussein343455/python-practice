@@ -156,3 +156,52 @@
 # print(checks())
 #---------------------------------------------------------------------------
 #Write a function that tests whether a string is a palindrome.
+
+
+#---------------------------------------------------------------------------
+#taking 3 random rows from the array into x with no repetition
+
+# import numpy as np
+# ax = np.array([[11, 21, 3, 0, 5],
+#                [42, 22, 33, 23, 5],
+#                [13, 23, 3, 20, 55],
+#                [44, 24, 32, 23, 5],
+#                [15, 25, 3, 0, 5],
+#                [46, 26, 36, 23, 5],
+#                [17, 27, 39, 0, 5],
+#                [48, 28, 3, 23, 5]
+#                ])
+# how_many=3
+# highest_number=len(ax)-1
+# mask = np.random.choice(highest_number,how_many ,replace=False)#
+# x=ax[mask]
+# print(x)
+#---------------------------------------------------------------------------
+#reshape the array ax from 3d into 2d metrex or 1d vector
+
+# import numpy as np
+# ax = np.array([[[11, 21, 3, 0, 5],
+#                [42, 22, 33, 23, 5],
+#                [13, 23, 3, 20, 55],
+#                [44, 24, 32, 23, 5],
+#                [15, 25, 3, 0, 5],
+#                [46, 26, 36, 23, 5],
+#                [17, 27, 39, 0, 5],
+#                [48, 28, 3, 23, 5]
+#                ],[[11, 21, 3, 0, 5],
+#                [42, 22, 33, 23, 5],
+#                [13, 23, 3, 20, 55],
+#                [44, 24, 32, 23, 5],
+#                [15, 25, 3, 0, 5],
+#                [46, 26, 36, 23, 5],
+#                [17, 27, 39, 0, 5],
+#                [48, 28, 3, 23, 5]
+#                ]])
+# print(ax.shape)
+# X_train = np.reshape(ax, (ax.shape[0], -1))
+# print(X_train.shape)
+# X_train = np.reshape(ax, (-1))
+# print(X_train.shape)
+
+#---------------------------------------------------------------------------
+
